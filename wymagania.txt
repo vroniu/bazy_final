@@ -1,0 +1,20 @@
+Mój projekt "aspiruje" do oceny 4-5.
+
+Spełnione wymagania:
+-motywacja do implementacji bazy - w pliku documentation.docx
+-diagram relacji - w pliku relacje_diagram.png
+-dokumentacja danych - w pliku documentation.docx
+-skrypt tworzący bazę i ją zapełniający - odpowiednio w plikach create.sql i insert.sql
+-prezentacja - wersja tekstowa w pliku documentation.docx, prezantacja PowerPoint w pliku presentation.pptx
+
+wymagania minimalne: 
+-baza zawiera 10 tabel, 
+-każda jest relacji z inną, 
+-każdy atrybut posiada więzy integralości (niektóre są tworzone przez CONSTRAINT, niektóre przy definiowaniu atrybutu), 
+-w każdej tabeli jest więcej niż 10 rekordów.
+-zapytania są w pliku queries.sql - 10 projekcji, 10 selekcji, 10 łączeń dwutabelkowych i 10 złączeń trzytabelkowych
+
+wymagania dodatkowe:
+-relacja zwrotna - relacja brygadzista i pracownik podlegający pod brygadzistę, zrealizowana przez tabelkę BRYGADY
+-modyfikacja schematu - opisane są trzy przypadki, kiedy baza danych może ulec modyfikacji - w pliku documentation.docx
+-skrypty modyfikujące bazę - realizują przypadki z dokumentacji - w pliku modify.sql
